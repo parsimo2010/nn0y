@@ -19,4 +19,19 @@ layout: archive
 
 {% include paginator.html %}
 
-<script src="https://halfstaff.org/widgets/us-half-staff-flags.js"></script> <div id="rigref-solar-widget"><a href="https://rigreference.com/solar" target="_blank"><img src="https://rigreference.com/solar/img/tall" border="0"></a></div>
+<!-- Widget container with styling -->
+<div class="widget-container" style="display: flex; justify-content: space-between; margin-top: 30px; flex-wrap: wrap; clear: both;">
+  <!-- Half-staff flags widget -->
+  <div class="widget" style="flex: 1; min-width: 300px; margin-right: 10px;">
+    <script src="https://halfstaff.org/widgets/us-half-staff-flags.js"></script>
+  </div>
+  
+  <!-- Solar widget -->
+  <div class="widget" style="flex: 1; min-width: 300px;">
+    <div id="rigref-solar-widget">
+      <a href="https://rigreference.com/solar" target="_blank">
+        <img src="https://rigreference.com/solar/img/tall" border="0">
+      </a>
+    </div>
+  </div>
+</div>
